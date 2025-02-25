@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.login_background{
+    width: 100vw;
+    height: 100vh;
+    
+    background-color: blue;
+}
+
+.imagem_fundo{
+    z-index: 1;
+    opacity: 50%;
+    filter: blur(5px);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginFormContainer{
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0,74,234,255);
+    height: 80vh;
+    width: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 15px solid rgba(0,53,169,255);
+    border-right: 15px solid rgba(0,53,169,255);
+    border-radius: 12px;
+
+    display: flexbox;
+    justify-content: center;    
+    align-items: center;
+    gap: 10px;
+}
+
+.login_input{
+    border-radius: 10px;
+    height: 60px;
+    width: 65%;
+    border: white solid 3px;
+    justify-content: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0,74,234,255);
+    color: white;
+    font-size: 120%;
+}
+.login_input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+.login_input:focus{
+    outline: none;
+}
+
+.faciliteLogoContainer{
+    height: 25vh;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.inputTxt{
+    position: relative;
+    color: white;
+    font-size: 120%;
+    background-color:rgba(0,74,234,255);
+    top: 12px;
+    left: 25%;
+    display: inline;
+    z-index: 3;
+    padding: 0px 8px 0px 8px;
+    
+}
+
+.facilite_imagem{
+    width: 100%;
+}
+
+.olhoSenhaContainer{
+    width: 12%;
+    position:relative;   
+    right: -85%;
+    top: -65px; 
+}
+
+.olhoSenhaImg{
+    width: 100%;
+}
+
+.botaoEntrar{
+    background-color: rgba(255,174,0,255);
+    color: white;
+    width: 60%;
+    height: 7vh;
+    font-size: 200%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 0px;
+    border-radius: 15px;
+}
+.botaoEntrar:hover{
+    background-color: rgba(235,154,0,255);
+}
+
+
+
+header{
+    background-color: #004aea;
+    width: 98vw;
+    height: 17vh;
+    display: flex;
+    border-right: 50px solid rgba(0,53,169,255);
+    border-bottom: 50px solid rgba(0,53,169,255);
+    border-bottom-right-radius: 50px;
+}
+
+.leftSide{
+    display: inline;
+    width: 50vw;
+}
+.rightSide{
+    display: inline;
+    width: 48vw;
+}
+.logoPrincipalContainer{
+    width: 50%;
+    height: 100%;
+}
+.imagemPrincipal{
+    width: 70%;
+    margin-left: 10%;
+}
+
+.botaoVoltar{
+    position: fixed;
+    bottom: 0px;
+    width: 8vw;
+    height: 15vh;
+    background-color: rgba(0,74,234,255);
+    border-top: solid 15px rgba(0,53,169,255);
+    border-right: solid 15px rgba(0,53,169,255);
+}
+.botaoVoltar:hover{
+    background-color: #033ebd;
+}
+
+.voltarImg{
+    width: 80%;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
