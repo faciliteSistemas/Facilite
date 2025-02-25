@@ -27,7 +27,7 @@ function App() {
           <div className="loginFormContainer">
 
             <div className="faciliteLogoContainer">
-              <img className='facilite_imagem' src='../src/assets/FaciliteLogo-no-background.png' ></img>   
+              <img className='facilite_imagem' alt='logo facilite' src='../src/assets/FaciliteLogo-no-background.png' ></img>   
             </div>
 
             <LoginInput input_text={"Login"} senha={false}></LoginInput>
